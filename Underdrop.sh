@@ -1,15 +1,24 @@
 #!/bin/bash
 
 # Menampilkan ASCII art untuk "Saandy"
-echo " U                                                  "
-echo "   N                                                "
-echo "     D                                              "
-echo "      E                                             "
-echo "        R                                           "
-echo "          D                                         "
-echo "            R                                       "
-echo "              O                                     "
-echo "                P                                   "
+echo "  ██████ ▄▄▄     ▄▄▄      ███▄    █▓█████▓██   ██▓"
+echo "▒██    ▒▒████▄  ▒████▄    ██ ▀█   █▒██▀ ██▒██  ██▒"
+echo "░ ▓██▄  ▒██  ▀█▄▒██  ▀█▄ ▓██  ▀█ ██░██   █▌▒██ ██░"
+echo "  ▒   ██░██▄▄▄▄█░██▄▄▄▄██▓██▒  ▐▌██░▓█▄   ▌░ ▐██▓░"
+echo "▒██████▒▒▓█   ▓██▓█   ▓██▒██░   ▓██░▒████▓ ░ ██▒▓░"
+echo "▒ ▒▓▒ ▒ ░▒▒   ▓▒█▒▒   ▓▒█░ ▒░   ▒ ▒ ▒▒▓  ▒  ██▒▒▒ "
+echo "░ ░▒  ░ ░ ▒   ▒▒ ░▒   ▒▒ ░ ░░   ░ ▒░░ ▒  ▒▓██ ░▒░ "
+echo "░  ░  ░   ░   ▒   ░   ▒     ░   ░ ░ ░ ░  ░▒ ▒ ░░  "
+echo "      ░       ░  ░    ░  ░        ░   ░   ░ ░     "
+echo "                                    ░     ░ ░     "
+echo "                                                   "
+echo "                                                   "
+echo "                                                   "
+echo "                                                   "
+echo "                                                   "
+echo "                                                   "
+echo "                                                   "
+echo "                                                   "
 
 # Memeriksa apakah Docker sudah terinstal
 if command -v docker &> /dev/null; then
